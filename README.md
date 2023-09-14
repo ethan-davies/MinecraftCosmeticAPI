@@ -1,5 +1,5 @@
 # MinecraftCosmeticAPI
-This is the Minecraft cosmetic API designed to be used along side the [MinecraftWebSocket](https://github.com/ethan-davies/MinecraftWebSocket) project. Just as a heads up, this repository is incapible of being an actual API without tweaking *yet*.  However, is this is confirmed to change in the future (You will still need to implement your own code connecting it to your database).
+This is the Minecraft cosmetic API designed to be used along side the [MinecraftWebSocket](https://github.com/ethan-davies/MinecraftWebSocket) project. Just as a heads up, this repository is incapible of working as an actual API without adding you're own custom database integration code. 
 
 
 ## Getting Started
@@ -35,7 +35,4 @@ $ npm run dev
 $ yarn dev
 ```
 
-For testing purposes use this endpoint: [/user/testUsername](http://localhost:8080/user/testUsername). 
-
----
-<sub>Credit to [Naibuu](https://github.com/Naibuu) for his his template respository</sub>
+For testing purposes use this endpoint: [/cosmetics/testUsername](http://localhost:8080/cosmetics/testUsername).
